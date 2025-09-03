@@ -1,12 +1,12 @@
 package ATIVIDADES.Atividade_1;
 
-public class PC {
+public class PC{
     private int memoriaRAM;
     private int SSD;
     private int nucleos;
     private float operacoesPorSegundo;
 
-    public PC(int memoriaRAM, int SSD, int nucleos, float operacoesPorSegundo) {
+    public PC(int memoriaRAM, int SSD, int nucleos, float operacoesPorSegundo){
         this.memoriaRAM = memoriaRAM;
         this.SSD = SSD;
         this.nucleos = nucleos;

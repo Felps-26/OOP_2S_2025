@@ -1,21 +1,21 @@
 package Sistema_radar;
 
+import ATIVIDADES.Atividade_1.PC;
+import ATIVIDADES.Atividade_1.OS;
+import ATIVIDADES.Atividade_1.Program;
+
 public class Main {
     public static void main(String[] args) {
-        Computador pc = new Computador(16, 512, 4, 1000.0f);
-        SistemaOperacional os = new SistemaOperacional(pc);
+        PC pc = new PC(16, 512, 4, 1000.0f);
+        OS os = new OS(pc);
 
-        // Programa executado com sucesso
-        Programa prog1 = new Programa(8, 100, 2, 4000);
+        Program prog1 = new Program(8, 100, 2, 64000);
         os.executarPrograma(prog1);
 
-        // Erro na instalação do programa (SSDOcupado > SSD disponível)
-        Programa prog2 = new Programa(8, 600, 2, 4000);
+        Program prog2 = new Program(18, 100, 2, 4000);
         os.executarPrograma(prog2);
 
-        // Erro na execução do programa (memoriaRAMAlocada > memóriaRAM disponível)
-        Programa prog3 = new Programa(32, 100, 2, 4000);
-        os.executarPrograma(prog3);
+        Program Prog3 = new Program(8, 600, 2, 40000);
+        os.executarPrograma(Prog3);
     }
 }
-
