@@ -1,8 +1,4 @@
-package Sistema_radar;
-
-import ATIVIDADES.Atividade_1.PC;
-import ATIVIDADES.Atividade_1.OS;
-import ATIVIDADES.Atividade_1.Program;
+package ATIVIDADES.Atividade_1;
 
 public class Main {
     public static void main(String[] args) {
