@@ -8,7 +8,6 @@ public class Livro extends Material {
         this.autor = autor;
     }
 
-    @Override
     public void descricao() {
         System.out.println("Título: " + getTitulo());
         System.out.println("Ano de publicação: " + getAnoPublicacao());

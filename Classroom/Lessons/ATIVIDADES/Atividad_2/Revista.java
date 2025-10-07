@@ -8,7 +8,6 @@ public class Revista extends Material {
         this.edicao = edicao;
     }
 
-    @Override
     public void descricao() {
         System.out.println("Título: " + getTitulo());
         System.out.println("Ano de publicação: " + getAnoPublicacao());
