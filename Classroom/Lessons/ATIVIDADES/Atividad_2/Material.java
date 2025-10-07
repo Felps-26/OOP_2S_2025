@@ -1,4 +1,4 @@
-package Atividad_2;
+package ATIVIDADES.Atividad_2;
 
 public abstract class Material {
     private String titulo;

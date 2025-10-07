@@ -1,4 +1,4 @@
-package Atividad_2;
+package ATIVIDADES.Atividad_2;
 
 public class Usuario extends Pessoa {
     private int matricula;

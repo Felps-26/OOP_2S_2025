@@ -1,4 +1,4 @@
-package Atividad_2;
+package ATIVIDADES.Atividad_2;
 
 import java.util.ArrayList;
 import java.util.Scanner;
