@@ -1,6 +1,8 @@
-package ATIVIDADES.Atividad_2;
+package atividade_02.src.main.java.model;
 
-public abstract class Pessoa {
+import atividade_02.src.main.java.interfaces.TomadorEmprestimo;
+
+public abstract class Pessoa implements TomadorEmprestimo {
     private String nome;
     private String email;
 

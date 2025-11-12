@@ -1,4 +1,6 @@
-package ATIVIDADES.Atividad_2;
+package atividade_02.src.main;
+
+import atividade_02.src.main.java.model.*;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -10,6 +12,14 @@ public class Main {
         ArrayList<Pessoa> pessoas = new ArrayList<>();
         ArrayList<Material> materiais = new ArrayList<>();
         ArrayList<Emprestimo> emprestimos = new ArrayList<>();
+
+
+        // Exemplo Fixo
+        Instituicao UCB = new Instituicao("UCB", "123456", "Brasilia-DF");
+        Colecao c1 = new Colecao("Pedro", 10);
+        Emprestimo e1 = new Emprestimo(UCB, c1, "20/10/2025", "21/10/2025");
+        emprestimos.add(e1);
+
 
         int opcao;
 
@@ -98,8 +108,8 @@ public class Main {
                         break;
                     }
                     System.out.println("Escolha o usuário (índice):");
-                    for (int i = 0; i < pessoas.size(); i++) {
-                        System.out.println(i + " - " + pessoas.get(i).getNome());
+                    for (int i = 0; i < pessoas.size(); i++) { 
+                            System.out.println(i + " - " + pessoas.get(i).getNome());
                     }
                     int idxUsuario = sc.nextInt();
                     sc.nextLine();
@@ -117,8 +127,8 @@ public class Main {
                     String dataD = sc.nextLine();
 
                     emprestimos.add(new Emprestimo(pessoas.get(idxUsuario),
-                            materiais.get(idxMaterial),
-                            dataE, dataD));
+                                                   materiais.get(idxMaterial),
+                                                   dataE, dataD));
                     System.out.println("Empréstimo cadastrado!\n");
                     break;
 
