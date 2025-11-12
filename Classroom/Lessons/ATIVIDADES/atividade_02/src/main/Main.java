@@ -1,6 +1,6 @@
-package atividade_02.src.main;
+package main;
 
-import atividade_02.src.main.java.model.*;
+import model.*;
 
 import java.util.ArrayList;
 import java.util.Scanner;

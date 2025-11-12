@@ -1,5 +1,6 @@
-package atividade_02.src.main.java.interfaces;
+package interfaces;
 
 public interface TomadorEmprestimo {
     public void exibirInfo();
 }
+

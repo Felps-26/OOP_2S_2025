@@ -1,7 +1,7 @@
-package atividade_02.src.main.java.model;
+package model;
 
-import atividade_02.src.main.java.interfaces.ItemEmprestavel;
-import atividade_02.src.main.java.interfaces.TomadorEmprestimo;
+import interfaces.ItemEmprestavel;
+import interfaces.TomadorEmprestimo;
 
 public class Emprestimo {
     private TomadorEmprestimo tomadorEmprestimo;

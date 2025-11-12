@@ -1,4 +1,4 @@
-package atividade_02.src.main.java.model;
+package model;
 
 public class Livro extends Material {
     private String autor;

@@ -1,6 +1,6 @@
-package atividade_02.src.main.java.model;
+package model;
 
-import atividade_02.src.main.java.interfaces.ItemEmprestavel;
+import interfaces.ItemEmprestavel;
 
 public abstract class Material implements ItemEmprestavel {
     private String titulo;

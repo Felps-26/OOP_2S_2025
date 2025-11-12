@@ -1,6 +1,6 @@
-package atividade_02.src.main.java.model;
+package model;
 
-import atividade_02.src.main.java.interfaces.TomadorEmprestimo;
+import interfaces.TomadorEmprestimo;
 
 public class Instituicao implements TomadorEmprestimo {
     private String nome;
